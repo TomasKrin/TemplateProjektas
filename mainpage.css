@@ -265,6 +265,7 @@
 }
 .testimonials .container .text1 p:last-child {
   font-size: 15px;
+  margin: 0;
 }
 .testimonials .dots {
   margin: 0 auto 100px;
