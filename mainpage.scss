@@ -419,3 +419,48 @@
         margin: 50px auto 50px;
     }
 }
+
+footer {
+    background-color: #072136;
+    color: white;
+    padding: 30px 100px 100px;
+
+    p {
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    h3 {
+        font-weight: 100;
+    }
+
+    .footcontainer {
+        display: flex;
+        justify-content: space-between;
+
+        .footcontacts {
+            flex: 2;
+        }
+
+        .menu {
+            flex: 1;
+            line-height: 2rem;
+        }
+
+        .socials {
+            flex: 1;
+
+            .brands {
+                margin-bottom: 50px;
+
+                i {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
