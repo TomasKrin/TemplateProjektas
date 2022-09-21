@@ -68,14 +68,14 @@
             p {
                 font-size: 25px;
                 margin-bottom: 0;
-                margin-top: 50px;
+                margin-top: 5%;
             }
 
             h1 {
                 font-size: 60px;
                 font-weight: 100;
                 margin-top: 10px;
-                margin-bottom: 15px;
+                margin-bottom: 1.5%;
             }
 
             .button {
@@ -109,7 +109,7 @@
 
 .nav-preview {
     display: flex;
-    margin: 80px;
+    margin: 8%;
 
     .card {
         display: flex;
@@ -227,14 +227,14 @@
 .clients {
     h2 {
         text-align: center;
-        margin-top: 100px;
+        margin-top: 10%;
         font-size: 35px;
         font-weight: 100;
     }
 
     .client-box {
         display: flex;
-        margin: 50px 70px;
+        margin: 5% 7%;
 
         .brands {
             flex: 1;
@@ -272,7 +272,7 @@
 
 .testimonials {
     background-color: #f7f7f7;
-    margin-top: 150px;
+    margin-top: 15%;
     display: flex;
     flex-direction: column;
 
@@ -354,7 +354,7 @@
     form {
         display: flex;
         flex-direction: column;
-        margin: 50px 260px;
+        margin: 50px 250px;
 
         input {
             width: 450px;
@@ -410,13 +410,13 @@
         .row1,
         .row2,
         .row3 {
-            margin-top: 40px;
+            margin-top: 4%;
         }
 
     }
 
     .map-image {
-        margin: 50px auto 50px;
+        margin: 5% auto 5%;
     }
 }
 
