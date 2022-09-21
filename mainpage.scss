@@ -269,3 +269,70 @@
     }
 
 }
+
+.testimonials {
+    background-color: #f7f7f7;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        h2 {
+            text-align: center;
+            font-size: 35px;
+            font-weight: 100;
+            margin-bottom: 50px;
+            margin-top: 100px;
+        }
+    }
+
+    span {
+        font-weight: 700;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        i {
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+            height: 250px;
+            margin-left: 150px;
+            margin-right: 150px;
+
+        }
+
+        .text1 {
+            p {
+                font-size: 20px;
+                font-weight: 100;
+                vertical-align: baseline;
+                width: 500px;
+            }
+
+            & p:first-child {
+                margin-bottom: 60px;
+            }
+
+            & p:last-child {
+                font-size: 15px;
+            }
+        }
+    }
+
+    .dots {
+        margin: 0 auto 50px;
+        font-size: 8px;
+
+        & i:first-child {
+            font-size: 13px;
+        }
+
+        i {
+            margin: 10px;
+        }
+    }
+}

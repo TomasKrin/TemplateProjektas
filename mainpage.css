@@ -223,4 +223,56 @@
   display: flex;
   width: 30%;
   margin: 0 auto;
+}
+
+.testimonials {
+  background-color: #f7f7f7;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.testimonials .title h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 100;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+.testimonials span {
+  font-weight: 700;
+}
+.testimonials .container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.testimonials .container i {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  height: 250px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.testimonials .container .text1 p {
+  font-size: 20px;
+  font-weight: 100;
+  vertical-align: baseline;
+  width: 500px;
+}
+.testimonials .container .text1 p:first-child {
+  margin-bottom: 60px;
+}
+.testimonials .container .text1 p:last-child {
+  font-size: 15px;
+}
+.testimonials .dots {
+  margin: 0 auto 50px;
+  font-size: 8px;
+}
+.testimonials .dots i:first-child {
+  font-size: 13px;
+}
+.testimonials .dots i {
+  margin: 10px;
 }/*# sourceMappingURL=mainpage.css.map */
