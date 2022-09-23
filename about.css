@@ -47,7 +47,7 @@
   text-align: center;
 }
 .about .container {
-  border: 1px solid #c7c7c7;
+  border: 1.5px solid #c7c7c7;
   display: flex;
   height: 634px;
   width: 1100px;
@@ -57,7 +57,6 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  border-right: 1px solid #c7c7c7;
   vertical-align: baseline;
 }
 .about .container .text-container .text {
@@ -73,7 +72,7 @@
 }
 .about .container .image {
   flex: 1;
-  border-left: 1px solid #c7c7c7;
+  border-left: 1.5px solid #c7c7c7;
   display: flex;
 }
 .about .container .image img {
@@ -84,6 +83,64 @@
      object-position: 50% 50%;
 }
 
+.team .title {
+  margin: 150px 150px 100px;
+}
+.team .title h2 {
+  font-size: 35px;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.team .title p {
+  text-align: center;
+  width: 250px;
+  font-size: 15px;
+  margin: 0 auto;
+}
+.team .flex-container {
+  border: 1.5px solid #c7c7c7;
+  width: 1100px;
+  margin: 0 auto 50px;
+  display: flex;
+}
+.team .flex-container .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.team .flex-container .grid-container .bottom {
+  border-bottom: 1.5px solid #c7c7c7;
+}
+.team .flex-container .grid-container .left {
+  border-left: 1.5px solid #c7c7c7;
+}
+.team .flex-container .grid-container .card {
+  display: flex;
+  flex-direction: column;
+  padding: 75px;
+}
+.team .flex-container .grid-container .card img {
+  display: flex;
+  max-width: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+}
+.team .flex-container .grid-container .card h3 {
+  font-size: 25px;
+  font-weight: 100;
+  margin-bottom: 1px;
+}
+.team .flex-container .grid-container .card span {
+  font-weight: 700;
+}
+.team .flex-container .grid-container .card p {
+  vertical-align: baseline;
+  line-height: 1.8em;
+  margin-top: 30px;
+}
+
 .contacts {
   background-color: #0c3c60;
   color: white;
@@ -92,6 +149,7 @@
   flex-direction: column;
 }
 .contacts h2 {
+  margin-top: 60px;
   font-size: 35px;
   font-weight: 100;
   text-align: center;
