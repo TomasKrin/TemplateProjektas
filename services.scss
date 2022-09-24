@@ -49,30 +49,78 @@
 
 .services {
 
-    h1 {}
+    h1 {
+        text-align: center;
+        margin: 100px;
+        font-size: 60px;
+        font-weight: 100;
+    }
 
     .container {
-
         .grid-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 80px;
+            justify-items: center;
+            margin-bottom: 120px;
 
             .card {
+                width: 1000px;
+                display: flex;
+                border: 1.5px solid #c7c7c7c7;
+                position: relative;
 
-                a {}
+                a {
+                    text-decoration: none;
+                    color: #0c3c60;
+                }
 
                 .image {
+                    flex: 1;
+                    background-color: black;
 
-                    img {}
+                    img {
+                        display: flex;
+                        max-width: 100%;
+                        object-fit: cover;
+                        object-position: 50% 50%;
+
+                        &:hover {
+                            opacity: 0.7;
+                            filter: brightness(95%);
+                        }
+                    }
                 }
 
                 .text {
+                    flex: 1;
+                    position: relative;
+                    left: 50px;
+                    top: 30px;
 
-                    h2 {}
 
-                    p {}
+                    h2 {
+                        font-size: 25px;
+                        font-weight: 100;
+
+                        &:hover {
+                            opacity: 0.7;
+                        }
+                    }
 
                     .button {
+                        border: 1px solid #0c3c60;
+                        width: 130px;
+                        padding: 8px;
+                        text-align: center;
 
-                        a {}
+                        a {
+                            font-weight: 600;
+                        }
+
+                        &:hover {
+                            opacity: 0.7;
+                        }
                     }
                 }
             }

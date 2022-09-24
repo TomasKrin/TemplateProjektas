@@ -40,6 +40,71 @@
   font-size: 25px;
 }
 
+.services h1 {
+  text-align: center;
+  margin: 100px;
+  font-size: 60px;
+  font-weight: 100;
+}
+.services .container .grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 80px;
+  justify-items: center;
+  margin-bottom: 120px;
+}
+.services .container .grid-container .card {
+  width: 1000px;
+  display: flex;
+  border: 1.5px solid rgba(199, 199, 199, 0.7803921569);
+  position: relative;
+}
+.services .container .grid-container .card a {
+  text-decoration: none;
+  color: #0c3c60;
+}
+.services .container .grid-container .card .image {
+  flex: 1;
+  background-color: black;
+}
+.services .container .grid-container .card .image img {
+  display: flex;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+}
+.services .container .grid-container .card .image img:hover {
+  opacity: 0.7;
+  filter: brightness(95%);
+}
+.services .container .grid-container .card .text {
+  flex: 1;
+  position: relative;
+  left: 50px;
+  top: 30px;
+}
+.services .container .grid-container .card .text h2 {
+  font-size: 25px;
+  font-weight: 100;
+}
+.services .container .grid-container .card .text h2:hover {
+  opacity: 0.7;
+}
+.services .container .grid-container .card .text .button {
+  border: 1px solid #0c3c60;
+  width: 130px;
+  padding: 8px;
+  text-align: center;
+}
+.services .container .grid-container .card .text .button a {
+  font-weight: 600;
+}
+.services .container .grid-container .card .text .button:hover {
+  opacity: 0.7;
+}
+
 .contacts {
   background-color: #0c3c60;
   color: white;
