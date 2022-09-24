@@ -54,85 +54,124 @@
     }
 }
 
-.services {
-
-    h1 {
+.plans {
+    .title {
+        margin: 120px;
         text-align: center;
-        margin: 100px;
-        font-size: 60px;
-        font-weight: 100;
+
+        h1 {
+            font-size: 60px;
+            font-weight: 100;
+            margin-bottom: 5px;
+        }
+
+        p {
+            margin-top: 5px;
+        }
     }
 
-    .container {
-        .grid-container {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 80px;
-            justify-items: center;
-            margin-bottom: 120px;
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 40px;
+        margin: 20px;
 
-            .card {
-                width: 1000px;
+        .card {
+            border: 1.5px solid #d9d9d9;
+            position: relative;
+            text-align: center;
+            margin-bottom: 200px;
+
+
+            .sticker {
+                position: absolute;
+                border: 1px solid #d9d9d9;
+                background-color: #0c3c60;
+                color: white;
+                font-size: 13px;
+                text-align: center;
+                vertical-align: middle;
+                width: 85px;
+                height: 30px;
+                left: 40%;
+                top: -15px;
                 display: flex;
-                border: 1.5px solid #c7c7c7c7;
-                position: relative;
+                justify-content: center;
+                align-items: center;
+            }
 
-                a {
-                    text-decoration: none;
-                    color: #0c3c60;
-                }
+            .colored {
+                background-color: #eaf1f7;
+            }
 
-                .image {
-                    flex: 1;
-                    background-color: black;
+            .block1 {
+                padding: 10px;
 
-                    img {
-                        display: flex;
-                        max-width: 100%;
-                        object-fit: cover;
-                        object-position: 50% 50%;
-
-                        &:hover {
-                            opacity: 0.7;
-                            filter: brightness(95%);
-                        }
-                    }
-                }
-
-                .text {
-                    flex: 1;
-                    position: relative;
-                    left: 50px;
-                    top: 30px;
-
-
-                    h2 {
-                        font-size: 25px;
+                p {
+                    &:first-child {
+                        font-size: 20px;
                         font-weight: 100;
-
-                        &:hover {
-                            opacity: 0.7;
-                        }
+                        margin-bottom: 0;
                     }
 
-                    .button {
-                        border: 1px solid #0c3c60;
-                        width: 130px;
-                        padding: 8px;
-                        text-align: center;
+                    &:nth-child(3) {
+                        font-size: 14px;
+                        margin-bottom: 30px;
+                    }
 
-                        a {
-                            font-weight: 600;
-                        }
+                    &:nth-child(4) {
+                        font-size: 12px;
+                        margin-top: 0;
+                    }
 
-                        &:hover {
-                            opacity: 0.7;
-                        }
+                }
+
+                span {
+                    font-size: 70px;
+                    font-weight: 100;
+
+                    sup {
+                        font-size: 20px;
+                        vertical-align: text-top;
+                    }
+                }
+
+                .button {
+                    width: 250px;
+                    background-color: #0c3c60;
+                    padding: 15px 20px;
+                    margin: 20px auto 20px;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-weight: 700;
+                    }
+
+                    &:hover {
+                        opacity: 0.7;
+                        transition: 0.5s;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .block2 {
+                border-top: 1.5px solid #d9d9d9;
+
+                p {
+                    font-size: 14px;
+                    padding: 5px;
+
+                    i {
+                        color: #5c95c0;
+                        margin-right: 5px;
                     }
                 }
             }
         }
     }
+
 }
 
 .contacts {

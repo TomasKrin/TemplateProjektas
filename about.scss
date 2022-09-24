@@ -24,11 +24,12 @@
         flex: 1;
         display: grid;
         grid-template-columns: repeat(7, 1fr);
-        margin-right: 50px;
         align-items: baseline;
         text-align: center;
         gap: 10px;
         white-space: nowrap;
+        position: relative;
+        right: 90px;
 
         p {
             font-size: 13px;
@@ -37,6 +38,12 @@
 
             &:nth-child(4) {
                 padding: 20px;
+            }
+
+            &:hover {
+                opacity: 0.5;
+                transition: 0.5s;
+                cursor: pointer;
             }
         }
 
@@ -283,10 +290,21 @@ footer {
         .menu {
             flex: 1;
             line-height: 2rem;
+
+            a {
+                &:hover {
+                    opacity: 0.8;
+                    color: #72bbf7;
+                }
+            }
         }
 
         .socials {
             flex: 1;
+
+            a {
+                text-decoration: underline;
+            }
 
             .brands {
                 margin-bottom: 50px;

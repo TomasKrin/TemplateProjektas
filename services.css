@@ -21,11 +21,12 @@
   flex: 1;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  margin-right: 50px;
   align-items: baseline;
   text-align: center;
   gap: 10px;
   white-space: nowrap;
+  position: relative;
+  right: 90px;
 }
 .nav-container .selection p {
   font-size: 13px;
@@ -34,6 +35,11 @@
 }
 .nav-container .selection p:nth-child(4) {
   padding: 20px;
+}
+.nav-container .selection p:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+  cursor: pointer;
 }
 .nav-container .selection i {
   margin-right: 10px;
@@ -201,8 +207,15 @@ footer .footcontainer .menu {
   flex: 1;
   line-height: 2rem;
 }
+footer .footcontainer .menu a:hover {
+  opacity: 0.8;
+  color: #72bbf7;
+}
 footer .footcontainer .socials {
   flex: 1;
+}
+footer .footcontainer .socials a {
+  text-decoration: underline;
 }
 footer .footcontainer .socials .brands {
   margin-bottom: 50px;
