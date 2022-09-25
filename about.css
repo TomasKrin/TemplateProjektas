@@ -202,6 +202,7 @@
   background-color: #0c3c60;
   color: white;
   transition: 0.5s;
+  cursor: pointer;
 }
 .contacts form .row1,
 .contacts form .row2,
