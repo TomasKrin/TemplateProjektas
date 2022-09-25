@@ -62,115 +62,115 @@
   font-size: 15px;
 }
 
-.container {
+.tools .container {
   display: flex;
   flex-direction: column;
   margin: 0px 250px 500px;
   color: black;
   font-size: 14px;
 }
-.container .row {
+.tools .container .row {
   display: flex;
   justify-content: space-between;
   padding: 20px;
   padding-left: 10px;
   border-bottom: 1px solid rgba(199, 199, 199, 0.7803921569);
 }
-.container .row .checkbox {
+.tools .container .row .checkbox {
   display: flex;
   opacity: 0;
 }
-.container .row .checkbox input {
+.tools .container .row .checkbox input {
   height: 17px;
   width: 17px;
 }
-.container .row .checkbox input:hover {
+.tools .container .row .checkbox input:hover {
   cursor: pointer;
 }
-.container .row .checkbox input:checked {
+.tools .container .row .checkbox input:checked {
   accent-color: white;
   color: #0c3c60;
 }
-.container .row:hover .checkbox {
+.tools .container .row:hover .checkbox {
   opacity: 1;
 }
-.container .row .filter {
+.tools .container .row .filter {
   display: flex;
   font-size: 16px;
 }
-.container .row .filter .name {
+.tools .container .row .filter .name {
   padding-left: 20px;
 }
-.container .row .filter .name span {
+.tools .container .row .filter .name span {
   font-weight: bold;
   font-size: 16px;
   margin-left: 5px;
   position: relative;
   top: -2px;
 }
-.container .row .update {
+.tools .container .row .update {
   display: flex;
   font-size: 16px;
 }
-.container .row .update .hamburger {
+.tools .container .row .update .hamburger {
   margin-left: 25px;
   position: relative;
   right: -5px;
 }
-.container .row .update .hamburger:hover {
+.tools .container .row .update .hamburger:hover {
   opacity: 0.5;
 }
-.container .row .update .hamburger .bar {
+.tools .container .row .update .hamburger .bar {
   border: 0.2px solid #666666;
   background-color: #666666;
   height: 0.7px;
   margin-bottom: 5px;
   border-radius: 5px;
 }
-.container .row .update .hamburger .bar1 {
+.tools .container .row .update .hamburger .bar1 {
   width: 15px;
 }
-.container .row .update .hamburger .bar2 {
+.tools .container .row .update .hamburger .bar2 {
   width: 10px;
 }
-.container .row .update .hamburger .bar3 {
+.tools .container .row .update .hamburger .bar3 {
   width: 7px;
 }
-.container .row .icon {
+.tools .container .row .icon {
   display: flex;
   align-content: baseline;
   align-items: center;
 }
-.container .row .icon:hover {
+.tools .container .row .icon:hover {
   cursor: pointer;
 }
-.container .row .icon i {
+.tools .container .row .icon i {
   font-size: 35px;
   padding: 20px;
   padding-right: 10px;
   font-weight: 100;
 }
-.container .row .icon .text {
+.tools .container .row .icon .text {
   padding: 20px;
   padding-left: 5px;
 }
-.container .row .icon .text p {
+.tools .container .row .icon .text p {
   margin: 0;
   margin-bottom: 8px;
 }
-.container .row .icon .text span {
+.tools .container .row .icon .text span {
   color: #9f9f9f;
 }
-.container .row .date {
+.tools .container .row .date {
   display: flex;
   align-content: baseline;
   align-items: center;
 }
-.container .row .date .exact {
+.tools .container .row .date .exact {
   padding: 20px;
   font-size: 16px;
 }
-.container .row .date .dots {
+.tools .container .row .date .dots {
   font-size: 16px;
   margin-left: 10px;
   padding: 20px;
@@ -178,55 +178,55 @@
   color: gray;
   transform: scale(1.5);
 }
-.container .row .date .dots:hover {
+.tools .container .row .date .dots:hover {
   opacity: 0.5;
   cursor: pointer;
 }
-.container .heading {
+.tools .container .heading {
   display: flex;
   justify-content: space-between;
   font-size: 16px;
 }
-.container .heading .files {
+.tools .container .heading .files {
   position: relative;
   top: 15px;
 }
-.container .heading .add {
+.tools .container .heading .add {
   display: flex;
   justify-content: baseline;
 }
-.container .heading .add .glass {
+.tools .container .heading .add .glass {
   position: relative;
   top: 15px;
   right: 40px;
   font-size: 13px;
 }
-.container .heading .add .glass:hover {
+.tools .container .heading .add .glass:hover {
   opacity: 0.5;
   cursor: pointer;
 }
-.container .heading .add .button {
+.tools .container .heading .add .button {
   width: 100px;
   background-color: #0c3c60;
   text-align: center;
   padding: 8px 18px;
 }
-.container .heading .add .button a {
+.tools .container .heading .add .button a {
   text-decoration: none;
   color: white;
   font-weight: 700;
 }
-.container .heading .add .button:hover {
+.tools .container .heading .add .button:hover {
   opacity: 0.8;
   cursor: pointer;
 }
-.container .contentRow:hover {
+.tools .container .contentRow:hover {
   background-color: #fafafa;
 }
-.container .filterRow {
+.tools .container .filterRow {
   margin-top: 18px;
 }
-.container .filterRow:hover {
+.tools .container .filterRow:hover {
   cursor: pointer;
 }
 
