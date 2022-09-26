@@ -1,0 +1,240 @@
+.nav-container {
+  background-color: #0c3c60;
+  display: flex;
+  height: 70px;
+  align-items: center;
+}
+.nav-container a {
+  text-decoration: none;
+  color: white;
+}
+.nav-container .nav-title {
+  color: white;
+  flex: 1;
+  margin-left: 50px;
+}
+.nav-container .nav-title p {
+  font-size: 20px;
+  font-weight: 100;
+}
+.nav-container .selection {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: baseline;
+  text-align: center;
+  gap: 10px;
+  white-space: nowrap;
+  position: relative;
+  right: 90px;
+}
+.nav-container .selection p {
+  font-size: 13px;
+  font-weight: 100;
+  letter-spacing: 0.8px;
+}
+.nav-container .selection p:nth-child(4) {
+  padding: 20px;
+}
+.nav-container .selection p:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.nav-container .selection i {
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.subject1 {
+  margin: 100px 350px 30px;
+}
+.subject1 .title {
+  margin-left: 15%;
+  margin-bottom: 100px;
+}
+.subject1 .title h1 {
+  font-size: 60px;
+  font-weight: 100;
+  width: 500px;
+  padding-left: 17px;
+  text-align: center;
+}
+.subject1 .check .container {
+  display: flex;
+  border: 1.5px solid #d7d7d7;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 30px 0px;
+}
+.subject1 .check .container .block {
+  font-size: 18px;
+  padding: 15px;
+}
+.subject1 .check .container .block:first-child {
+  border-right: 1.5px solid #d7d7d7;
+}
+.subject1 .check .container .block:nth-child(2) {
+  border-right: 1.5px solid #d7d7d7;
+}
+.subject1 .button {
+  width: 100px;
+  background-color: #0c3c60;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 15px;
+  border: 1px solid white;
+}
+.subject1 .button:hover {
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #0c3c60;
+  transition: 0.5s;
+}
+.subject1 .button:hover a {
+  color: #0c3c60;
+}
+.subject1 .button a {
+  text-decoration: none;
+  color: white;
+}
+.subject1 .description {
+  border-top: 1px solid #d7d7d7;
+  margin-bottom: 30px;
+}
+.subject1 .description h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 30px 0px 20px;
+}
+.subject1 .description p {
+  margin: 0;
+}
+.subject1 .details {
+  border-top: 1px solid #d7d7d7;
+}
+.subject1 .details h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 30px 0px 20px;
+}
+.subject1 .details p {
+  margin: 0;
+}
+
+.contacts {
+  background-color: #0c3c60;
+  color: white;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.contacts h2 {
+  margin-top: 60px;
+  font-size: 35px;
+  font-weight: 100;
+  text-align: center;
+}
+.contacts form {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 250px;
+}
+.contacts form input {
+  width: 450px;
+  margin-right: 40px;
+}
+.contacts form textarea {
+  width: 725px;
+  margin-right: 40px;
+}
+.contacts form input,
+.contacts form textarea {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  border-bottom: 1px solid white;
+}
+.contacts form input:focus-visible,
+.contacts form textarea:focus-visible {
+  border-bottom: 2px solid white;
+}
+.contacts form .label {
+  margin-bottom: 15px;
+}
+.contacts form button {
+  margin-top: 25px;
+  width: 180px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid white;
+  color: #0c3c60;
+  font-weight: 700;
+  font-size: 16px;
+}
+.contacts form button:hover {
+  background-color: #0c3c60;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.contacts form .row1,
+.contacts form .row2,
+.contacts form .row3 {
+  display: flex;
+}
+.contacts form .row1,
+.contacts form .row2,
+.contacts form .row3 {
+  margin-top: 4%;
+}
+.contacts .map-image {
+  margin: 5% auto 5%;
+}
+
+footer {
+  background-color: #072136;
+  color: white;
+  padding: 30px 100px 100px;
+}
+footer p {
+  margin: 0;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer h3 {
+  font-weight: 100;
+}
+footer .footcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footcontainer .footcontacts {
+  flex: 2;
+}
+footer .footcontainer .menu {
+  flex: 1;
+  line-height: 2rem;
+}
+footer .footcontainer .menu a:hover {
+  opacity: 0.8;
+  color: #72bbf7;
+}
+footer .footcontainer .socials {
+  flex: 1;
+}
+footer .footcontainer .socials a {
+  text-decoration: underline;
+}
+footer .footcontainer .socials .brands {
+  margin-bottom: 50px;
+}
+footer .footcontainer .socials .brands i {
+  margin-right: 10px;
+}/*# sourceMappingURL=operational_consulting2.css.map */
