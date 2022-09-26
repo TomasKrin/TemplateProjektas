@@ -1,23 +1,28 @@
-.nav-container {
+header {
+  position: relative;
+}
+header .nav-container {
   background-color: #0c3c60;
   display: flex;
   height: 70px;
   align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
 }
-.nav-container a {
+header .nav-container a {
   text-decoration: none;
   color: white;
 }
-.nav-container .nav-title {
+header .nav-container .nav-title {
   color: white;
   flex: 1;
   margin-left: 50px;
 }
-.nav-container .nav-title p {
+header .nav-container .nav-title p {
   font-size: 20px;
   font-weight: 100;
 }
-.nav-container .selection {
+header .nav-container .selection {
   flex: 1;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -28,20 +33,20 @@
   position: relative;
   right: 90px;
 }
-.nav-container .selection p {
+header .nav-container .selection p {
   font-size: 13px;
   font-weight: 100;
   letter-spacing: 0.8px;
 }
-.nav-container .selection p:nth-child(4) {
+header .nav-container .selection p:nth-child(4) {
   padding: 20px;
 }
-.nav-container .selection p:hover {
+header .nav-container .selection p:hover {
   transition: 0.5s;
   cursor: pointer;
   opacity: 0.5;
 }
-.nav-container .selection i {
+header .nav-container .selection i {
   margin-right: 10px;
   font-size: 25px;
 }
